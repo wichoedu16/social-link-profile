@@ -4,20 +4,29 @@ div {
     align-items: center;
 }
 
+.todo{
+    background-color: black;
+}
+
+.cuadro {
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
 .person-name {
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
+    font-weight: bold;
+    color: white;
 }
 
 .person-location {
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
+    font-weight: bold;
+    font-size: small;
+    color: greenyellow;
 }
 
 .person-note {
     display: flex ;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
