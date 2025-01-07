@@ -2,39 +2,61 @@ div {
     display: flex ;
     flex-direction: column;
     align-items: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Space Grotesk', sans-serif;
 }
 
-.cuadro {
-    border: 1px solid black;
-    border-radius: 10%;
-    background-color: #131213;
+main {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro{
+    background-color: rgb(32, 32, 32);
+    padding: 2em;
+    border-radius: 1em;
+    display: flex;
+    row-gap: 1rem;
 }
 
 img {
-    border: 1px solid black;
     border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.title-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.25rem;
 }
 
 .person-name {
-    font-weight: bold;
+    font-size: 1.125em;
     color: white;
-    background-color: #131213;
-    border: 0;
 }
 
 .person-location {
-    font-weight: bold;
-    font-size: smaller;
+    font-size: 0.625em;
     color: greenyellow;
-    background-color: #131213;
-    border: 0;
 }
 
 .person-note {
     color: white;
-    font-size:small;
-    background-color: #131213;
+    font-size:12px;
+    font-weight:0.625em;;
     border: 0;
 }
 
+.social-links{
+    display:flex;
+}
+
+.social-link{
+    display: flex;
+    padding: 0.35em;
+    background-color: rgb(51,51,51);
+    border-radius: 0.1em;
+}
