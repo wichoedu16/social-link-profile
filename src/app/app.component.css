@@ -2,31 +2,39 @@ div {
     display: flex ;
     flex-direction: column;
     align-items: center;
-}
-
-.todo{
-    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .cuadro {
     border: 1px solid black;
     border-radius: 10%;
+    background-color: #131213;
+    
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 50%;
 }
 
 .person-name {
     font-weight: bold;
     color: white;
+    background-color: #131213;
+    border: 0;
 }
 
 .person-location {
     font-weight: bold;
-    font-size: small;
+    font-size: smaller;
     color: greenyellow;
+    background-color: #131213;
+    border: 0;
 }
 
 .person-note {
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
     color: white;
+    font-size:small;
+    background-color: #131213;
+    border: 0;
 }
