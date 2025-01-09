@@ -45,18 +45,9 @@ img {
 
 .person-note {
     color: white;
-    font-size:12px;
-    font-weight:0.625em;;
-    border: 0;
+    font-size:0.7em;
 }
 
 .social-links{
-    display:flex;
-}
-
-.social-link{
-    display: flex;
-    padding: 0.35em;
-    background-color: rgb(51,51,51);
-    border-radius: 0.1em;
+    row-gap: 0.75em;
 }
